@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: dentacarts.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 22 19:16:05 2026 GMT
+  hsts: false
+domains:
+- domain: dentacarts.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

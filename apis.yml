@@ -1,7 +1,23 @@
 aid: x-mart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/x-mart.png
 name: X mart
-description: X mart is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: X mart is a 500 Global portfolio company whose website, dentacarts.com, operates
+  DentaCarts, an online dental supplies marketplace positioned as a "Dentist Smart Partner."
+  The storefront sells dental and medical products across categories including restorative
+  materials, endodontics, orthodontics, implants, prosthetics, perio and surgery, instruments,
+  equipment, consumables, dermatology, and dental lab supplies, with support offered over
+  WhatsApp. No public developer API surface has been found.
 url: https://raw.githubusercontent.com/api-evangelist/x-mart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +27,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Dental
+- Healthcare
+- Marketplace
+- eCommerce
+- Medical Supplies
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/x-mart-domain-security.yml
 - type: Website
   url: https://dentacarts.com
+- type: LLMsTxt
+  url: llms/x-mart-llms.txt
+- type: TermsOfService
+  url: https://dentacarts.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://dentacarts.com/privacy-policy
+- type: Support
+  url: https://wa.me/201070834448

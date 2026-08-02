@@ -1,0 +1,12 @@
+# X mart (DentaCarts)
+
+> X mart is a 500 Global portfolio company. Its website, dentacarts.com, operates DentaCarts, an online dental supplies marketplace positioned as a "Dentist Smart Partner," selling dental and medical products across categories including restorative materials, endodontics, orthodontics, implants, prosthetics, perio and surgery, instruments, equipment, consumables, dermatology, and dental lab supplies. No public developer API, documentation portal, or machine-readable API surface has been found (probes of /llms.txt, /.well-known/*, and api./docs./developers. subdomains came back empty as of 2026-07-21).
+
+## Website
+- [DentaCarts storefront](https://dentacarts.com): Online dental marketplace (Next.js storefront served through a Kong gateway behind Cloudflare).
+- [Terms and Conditions](https://dentacarts.com/terms-and-conditions)
+- [Privacy Policy](https://dentacarts.com/privacy-policy)
+- [WhatsApp support](https://wa.me/201070834448): The storefront's published support channel.
+
+## Catalog
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/x-mart/refs/heads/main/apis.yml): API Evangelist network profile for this company.
